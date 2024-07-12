@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff; /* Light blue background */
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#headline {
+    font-size: 3em;
+    color: #4b0082; /* Light purple color */
+    animation: fadeIn 2s ease-in-out;
+}
+
+#tagline {
+    font-size: 1.5em;
+    color: #008000; /* Green color */
+    animation: fadeIn 2s ease-in-out 1s;
+}
+
+.chapters {
+    list-style: none;
+    padding: 0;
+}
+
+.chapters li {
+    margin: 10px 0;
+}
+
+.chapters a {
+    text-decoration: none;
+    color: #0000ff; /* Blue color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.chapters a:hover {
+    color: #4b0082; /* Light purple on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
